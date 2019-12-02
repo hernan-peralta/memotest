@@ -77,6 +77,7 @@ function game(card){
         lock();
 
         if (randomArray[card.id] === randomArray[firstFlippedCard.id]){
+            firstFlippedCard.classList.remove("locked");
 
             setTimeout(() => {
             card.classList.add("hidden"), firstFlippedCard.classList.add("hidden")}, 1000);
@@ -106,6 +107,7 @@ function game(card){
 
             cardsFlipped = 0;
             tries++;
+            firstFlippedCard.classList.remove("locked");
             document.querySelector("#tries").innerText = tries;
             return;
         }
@@ -113,6 +115,7 @@ function game(card){
 
     cardsFlipped++;
     firstFlippedCard = card;
+    firstFlippedCard.classList.add("locked");
 }
     
 cards.forEach(card => card.addEventListener("click", function(){game(card)}));
