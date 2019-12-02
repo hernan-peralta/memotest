@@ -1,0 +1,30 @@
+html{
+    background-color: green;
+}
+
+body{
+    background-color: green;
+}
+
+.container{
+    background-color: green;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.locked{
+    pointer-events: none;
+}
+
+.panel{
+    display: grid;
+    justify-content: center;
+    background-color: green;
+}
+
+#won{
+    display: grid;
+    justify-content: center;
+}

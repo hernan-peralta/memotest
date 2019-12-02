@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Memotest</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+</head>
+
+<body>
+        
+        <div class="container locked">
+            <div class="row justify-content-center">
+                <div class="col-sm-2 bg-primary card" id="0">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="1">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="2">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="3">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-2 bg-primary card" id="4">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="5">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="6">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="7">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-2 bg-primary card" id="8">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="9">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="10">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="11">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-2 bg-primary card" id="12">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="13">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="14">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+                <div class="col-sm-2 bg-primary card" id="15">
+                    <img class="img-fluid" src="images/space.jpg">
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="hidden" id="victory">
+            <h1 id="won">You won!</h1>
+        </div>
+        
+        
+        <div class="panel">            
+            <div>
+                <label for="chrono" class="d-inline">Time: </label>
+                <p class="d-inline" id="chrono">0</p>
+            </div>            
+            <div>
+                <label for="tries" class="d-inline">Tries: </label>
+                <p class="d-inline" id="tries">0</p>
+            </div>            
+            <button type="button" class="btn btn-warning" id="new-game">Start Game!</button>
+        </div>
+        
+
+    <script src='scripts/main.js'></script>
+</body>
+</html>
