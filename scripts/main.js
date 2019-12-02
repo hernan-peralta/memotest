@@ -69,6 +69,7 @@ function newGame(){
     startTimer();
 }
 
+
 function game(card){
 
     flipCard(card);

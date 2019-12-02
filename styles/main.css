@@ -28,3 +28,8 @@ body{
     display: grid;
     justify-content: center;
 }
+
+.card:active{
+    transition: all 0.4s ease;
+    transform: rotateY(180deg);
+}
